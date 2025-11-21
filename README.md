@@ -2,15 +2,6 @@
 
 A secure, scalable, and real-time mini wallet application built with Laravel 12 and Vue.js 3.
 
-## Features
-
--   **Money Transfer**: Secure atomic transfers between users.
--   **Real-time Updates**: Instant balance and transaction history updates using Pusher.
--   **Transaction History**: Detailed record of sent and received transactions.
--   **Commission System**: Automatic 1.5% commission deduction on transfers.
--   **High Concurrency**: Database locking prevents race conditions.
--   **Scalable Design**: Optimized for large datasets and high traffic.
-
 ## Prerequisites
 
 -   PHP 8.2 or higher

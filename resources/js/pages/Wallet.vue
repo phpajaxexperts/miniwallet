@@ -2,8 +2,8 @@
 import AppLayout from '@/layouts/AppLayout.vue';
 import { Head, usePage } from '@inertiajs/vue3';
 import { ref, onMounted, onUnmounted } from 'vue';
-import TransferForm from '@/Components/TransferForm.vue';
-import TransactionHistory from '@/Components/TransactionHistory.vue';
+import TransferForm from '@/components/TransferForm.vue';
+import TransactionHistory from '@/components/TransactionHistory.vue';
 import { Wallet } from 'lucide-vue-next';
 
 defineProps<{
