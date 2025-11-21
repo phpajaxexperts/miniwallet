@@ -1,0 +1,29 @@
+
+> build
+> vite build
+
+vite v7.1.9 building for production...
+[plugin @laravel/vite-plugin-wayfinder] Types generated for actions, routes, form variants
+transforming...
+✓ 3122 modules transformed.
+✗ Build failed in 12.88s
+error during build:
+resources/js/layouts/auth/AuthSimpleLayout.vue?vue&type=script&setup=true&lang.ts (15:9): "home" is not exported by "resources/js/routes/index.ts", imported by "resources/js/layouts/auth/AuthSimpleLayout.vue?vue&type=script&setup=true&lang.ts".
+file: /Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/resources/js/layouts/auth/AuthSimpleLayout.vue?vue&type=script&setup=true&lang.ts:15:9
+
+13: 
+14: import AppLogoIcon from '@/components/AppLogoIcon.vue';
+15: import { home } from '@/routes';
+             ^
+16: import { Link } from '@inertiajs/vue3';
+
+    at getRollupError (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/node-entry.js:16939:16)
+    at Module.traceVariable (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/node-entry.js:17391:29)
+    at ModuleScope.findVariable (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/node-entry.js:15061:39)
+    at ChildScope.findVariable (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/node-entry.js:5642:38)
+    at FunctionScope.findVariable (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/node-entry.js:5642:38)
+    at FunctionBodyScope.findVariable (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/node-entry.js:5642:38)
+    at ReturnValueScope.findVariable (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/node-entry.js:5642:38)
+    at FunctionBodyScope.findVariable (file:///Applications/XAMPP/xamppfiles/htdocs/projects/miniwallet/node_modules/rollup/dist/es/shared/node-entry.js:5642:38)
